@@ -2,7 +2,7 @@ name: theme-assemble
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5,23 * * *'
+    - cron: '0 23 * * *'
 
 jobs:
   release-worker:
