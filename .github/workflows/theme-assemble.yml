@@ -1,8 +1,8 @@
 name: theme-assemble
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 23 * * *'
+#   schedule:
+#     - cron: '0 23 * * *'
 
 jobs:
   release-worker:

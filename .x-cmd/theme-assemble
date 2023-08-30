@@ -9,7 +9,7 @@
     }
 
     x cd "$repo"
-    xws dist
+    x ws dist
 
 )
 
